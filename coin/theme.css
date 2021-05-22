@@ -1,0 +1,58 @@
+html.theme1 {
+    background-color: #ffedd8;
+}
+html.theme2 {
+    background-color: #444444;
+}
+
+
+
+.theme1 .game-score, .theme1 .game-high-score{
+    color: #a71b1b;
+}
+.theme2 .game-score, .theme2 .game-high-score{
+    color: #fff9e6;
+}
+
+.theme1 .game-time{
+    color: #edb2b2;
+}
+.theme2 .game-time{
+    color: #767676;
+}
+
+.theme1 .info-box {
+    background-color: #fffad8;
+    box-shadow: 5px 5px #e0bc8c;
+}
+.theme2 .info-box {
+    background-color: #767676;
+    box-shadow: 5px 5px #989898;
+}
+
+.theme1 .info-btn {
+    background-color: #fff5b0;
+    box-shadow: 5px 5px #e0bc8c;
+}
+.theme2 .info-btn {
+    background-color: #585858;
+    box-shadow: 5px 5px #989898;
+}
+
+.theme1 .info-btn:active {
+    box-shadow: 1px 1px #e0bc8c;
+}
+.theme2 .info-btn:active {
+    box-shadow: 1px 1px #989898;
+}
+
+
+.theme1 .info-title, .theme1 .info-about, .theme1 .info-coin-description, .theme1 .info-btn {
+    color: #90002c;
+}
+.theme2 .info-title, .theme2 .info-about, .theme2 .info-coin-description, .theme2 .info-btn {
+    color: #fff9e6;
+
+}
+
+

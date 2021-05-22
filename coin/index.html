@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="noTouch theme1">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66161105-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-66161105-2');
+        </script>
+        <title>ThtCoin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#fdd039">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#fdd039">
+
+        <meta name="description" content="Coin! - The next big crypto currency? A wate of bandwidth? Fun procrastination? You decide!">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="mobile.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="theme.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet_3_0.css">
+        <link rel="stylesheet" type="text/css" href="small.css">
+        <link rel="shortcut icon" type="image/x-icon" href="coin.png">
+    </head>
+    <body>
+        <div class="info-box info-box-main">
+            <h1 class="info-title">Coin!</h1>
+            <p class="info-about">Collect as many coins as possible in 30 seconds!</p>
+            <div class="info-coin">
+                <img class="info-coin-pic" src="coin.gif">
+                <p class="info-coin-description">Common, one point</p>
+            </div>
+            <div class="info-coin">
+                <img class="info-coin-pic" src="coin2.gif">
+<!--                <img class="info-coin-pic hidden-pic" src="coin3.png">-->
+                <img class="info-coin-pic hidden-pic" id="c1" src="sprite1.png">
+                <img class="info-coin-pic hidden-pic" id="c2" src="sprite2.png">
+                <img class="info-coin-pic hidden-pic" id="c3" src="sprite3.png">
+                <p class="info-coin-description">Rare, five points</p>
+            </div>
+            <p class="info-btn info-btn-theme">THEME</p>
+            <p class="info-btn info-btn-start">PLAY</p>
+        </div>
+        <div class="info-box info-box-difficulty">
+            <h1 class="info-title">Difficulty</h1>
+            <p class="info-btn info-btn-calm">CALM</p>
+            <p class="info-btn info-btn-crazy">CRAZY</p>
+        </div>
+        <canvas></canvas>
+        <p class="game-score">Score: 0</p>
+        <p class="game-high-score">High Score: 0</p>
+        <p class="game-time"></p>
+        <script src="script_3_2.js"></script>
+    </body>
+</html>
