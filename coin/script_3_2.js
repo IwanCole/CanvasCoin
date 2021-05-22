@@ -185,11 +185,11 @@ function endGame() {
         sendScore();
     }, 2500);
 
-    if (ga)
+    if (typeof ga !== "undefined")
     {
         ga('send', 'event', 'game', 'end', 'score', `${gScore}`);
     }
-    
+
     $(".game-high-score").delay(2500).fadeIn(200);
 }
 
